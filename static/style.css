@@ -15,6 +15,14 @@ header {
 h1 {
     margin: 0;
 }
+img {
+    width: 150px;  /* 画像の幅を150pxにする（好みで変更可） */
+    height: 150px;
+    border-radius: 50%;  /* 画像を丸くする */
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 軽く影をつける */
+}
+
 
 section {
     margin: 20px;
@@ -30,4 +38,5 @@ footer {
     background-color: #4CAF50;
     color: white;
 }
+
 
